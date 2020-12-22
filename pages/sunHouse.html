@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sun House</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../styles/main.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+	<style>
+	#sunRoom{
+/*		position:absolute;*/
+		margin-top:200px;
+		/*margin-left:300px;*/
+	}
+	#items{
+		position:absolute;
+		top:320px;
+		left:120px;
+		width:800px;
+
+	}
+	#items img{
+		margin:-10px;
+	}
+	</style>
+</head>
+<body>
+	
+	<div id="containment-wrapper">
+		<img id="sunRoom" src="../assets/house-inside.png">
+		<div id="items">
+			<img id="draggable" class="item" src="../assets/1.png">
+			<img id="draggable" class="item" src="../assets/2.png">
+			<img id="draggable" class="item" src="../assets/3.png">
+			<img id="draggable" class="item" src="../assets/4.png">
+			<img id="draggable" class="item" src="../assets/5.png">
+			<img id="draggable" class="wide-item" src="../assets/6.png">
+			<img id="draggable" class="item" src="../assets/7.png">
+			<img id="draggable" class="item" src="../assets/8.png">
+			<img id="draggable" class="item" src="../assets/9.png">
+			<img id="draggable" class="item" src="../assets/10.png">
+			<img id="draggable" class="item" src="../assets/11.png">
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../scripts/draggable.js"></script>
+</html>
